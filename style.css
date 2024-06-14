@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+body{
+    
+    box-sizing: border-box;
+    width: 100vh;
+    background-color: orangered;
+   align-items: center;
+}
+
+.card{
+   position: absolute;
+   margin: auto;
+   inset: 0;
+    width: min-content;
+    height: fit-content;
+    background-color: aliceblue;
+    padding: 1rem;
+    border-radius: 15px;
+}
+.card img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.card a{
+    text-decoration: none;
+    background-color: orangered;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 5px;
+    color: white;
+}
+.card h6{
+margin-top: 14px;
+}
+.card h2{
+    margin-top: 14px;
+    font-size: 700;
+
+}
+.card p{
+    margin-top: 10px;
+    opacity: 0.7;
+
+}
+.person{
+display: inline-flex;
+margin-top:1.4rem ;
+}
+.person img{
+    width: 40px;
+}
+.person b{
+    margin-top:1rem ;
+    padding-left: 2px;
+}
